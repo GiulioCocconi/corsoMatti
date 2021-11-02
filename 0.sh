@@ -4,10 +4,12 @@ cd
 echo "Update sistema in corso..."
 sudo apt update && sudo apt upgrade
 
+echo "alias shutup='shutdown -P now'" >> .bashrc
+
 echo
 echo "Installazione git, build-essential, python3, clang, lldb, clang-tools..."
 sudo apt install git build-essential python3 clang lldb clang-tools
-echo "alias python='python3" >> .bashrc
+echo "alias python='python3'" >> .bashrc
 echo
 echo "Installazione JDK..."
 sudo add-apt-repository ppa:linuxuprising/java
@@ -18,7 +20,7 @@ echo
 echo "Installazione Atom Editor..."
 cd /tmp
 wget https://atom.io/download/deb -O atom.deb
-dpkg -i atom.deb
+sudo dpkg -i atom.deb
 rm atom.deb
 cd
 
@@ -30,4 +32,5 @@ sudo tar xvf eclipse.tar.gz
 sudo rm eclipse.tar.gz
 cd
 echo "alias eclipse='/opt/eclipse/eclipse'" >> .bashrc
-
+echo
+echo "Installazione completata..."
