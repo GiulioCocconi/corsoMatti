@@ -1,4 +1,6 @@
 #!/bin/bash
+# wget https://raw.githubusercontent.com/GiulioCocconi/corsoMatti/main/0.sh && chmod +x 0.sh && ./0.sh
+
 cd
 
 echo "Update sistema in corso..."
