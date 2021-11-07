@@ -13,7 +13,7 @@ using namespace std;
 
 void swap(....); // Scambia due variabili TODO: Scrivere parametri
 void stampa_vettore(const int* vett, const int length);
-void bubble_sort(...) //TODO: Scrivere parametri; 
+void bubble_sort(...); //TODO: Scrivere parametri; 
 void selection_sort(int* vett, const int from, const int to);
 int minimo(...); //Trova l'indice del valore minimo del sottovettore di vett da indice from a indice to, TODO: Scrivere parametri
 
@@ -35,9 +35,10 @@ int main() {
 		cout << "Tutto ok!" << endl;
 	} else {
 		cout << "NO!!!!" << endl;
-		cout << "A [2]: " << a;
-		cout << "B [1]: " << b;
+		cout << "A [2]: " << a << endl;
+		cout << "B [1]: " << b << endl;
 	}
+	cout << endl;
 
 	cout << "Test funzione minimo: ";
 	int minimo_1 = minimo(vett_1, 0, LUNGHEZZA_VETT);
@@ -63,7 +64,7 @@ int main() {
 }
 
 void swap(...) { //TODO: SCRIVERE PARAMETRI + IMPLEMENTAZIONE
-	...
+	//...
 }
 
 void stampa_vettore(const int* vett, const int length) {
@@ -77,19 +78,20 @@ void stampa_vettore(const int* vett, const int length) {
 int minimo(...) { //TODO: SCRIVERE PARAMETRI + TERMINARE IMPLEMENTAZIONE
 	int minimo = INT_MAX; // Definito in <climits> (https://docs.microsoft.com/it-it/cpp/c-language/cpp-integer-limits)
 	int indice_minimo = 0;
-	...
+	//...
+	return indice_minimo;
 }
 
 
 void bubble_sort(...) { //TODO: SCRIVERE PARAMETRI + TERMINARE IMPLEMENTAZIONE
 	bool ordinato = false;
-	while (!ordinato) {
-		... 
-	}
+	//while (!ordinato) {
+		//... 
+	//}
 }
 
 void selection_sort(int* vett, const int from, const int to) { //TODO: TERMINARE IMPLEMENTAZIONE
 	if (from == to)
 		return;
-	...
+	//...
 }
