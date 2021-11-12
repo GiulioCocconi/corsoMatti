@@ -1,7 +1,7 @@
 lista = []
 
 for i in range(5):
-    numero = input("Inserisci un numero: ")
+    numero = int(input("Inserisci un numero: "))
     lista.append(numero)
 
 insieme = set(lista)
