@@ -9,14 +9,9 @@ sudo apt update && sudo apt upgrade
 echo "alias shutup='shutdown -P now'" >> .bashrc
 
 echo
-echo "Installazione git, build-essential, python3, clang, lldb, clang-tools..."
-sudo apt install git build-essential python3 clang lldb clang-tools
+echo "Installazione git, build-essential, python3, clang, lldb, clang-tools, JDK11..."
+sudo apt install git build-essential python3 clang lldb clang-tools openjdk-11-jdk
 echo "alias python='python3'" >> .bashrc
-echo
-echo "Installazione JDK..."
-sudo add-apt-repository ppa:linuxuprising/java
-sudo apt update
-sudo apt install oracle-java17-installer
 
 echo
 echo "Installazione Atom Editor..."
