@@ -77,7 +77,7 @@ void stampa_vettore(const int* vett, const int length) {
 
 int minimo(...) { //TODO: SCRIVERE PARAMETRI + TERMINARE IMPLEMENTAZIONE
 	int minimo = INT_MAX; // Definito in <climits> (https://docs.microsoft.com/it-it/cpp/c-language/cpp-integer-limits)
-	int indice_minimo = 0;
+	int indice_minimo = -1;
 	//...
 	return indice_minimo;
 }
