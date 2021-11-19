@@ -90,7 +90,7 @@ void bubble_sort(...) { //TODO: SCRIVERE PARAMETRI + TERMINARE IMPLEMENTAZIONE
 	//}
 }
 
-void selection_sort(int* vett, const int from, const int to) { //TODO: TERMINARE IMPLEMENTAZIONE
+void selection_sort(int* vett, const int from, const int to) { //TODO: TERMINARE IMPLEMENTAZIONE ( se vuoi ti aiuto :-) )
 	if (from == to)
 		return;
 	//...
