@@ -1,0 +1,25 @@
+plugins {
+    // Apply the java-library plugin for API and implementation separation.
+    id 'java-library'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit Jupiter for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+	
+	// Se vengono usate delle librerie esterne...
+	// compile files('libs/your-library-file-name.jar')
+    
+    api 'com.google.guava:guava:30.1.1-jre'
+}
+
+tasks.named('test') {
+    // Use JUnit Platform for unit tests.
+    useJUnitPlatform()
+}
+
