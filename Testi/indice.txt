@@ -1,0 +1,94 @@
+Intro:
+'Informatica - Una panoramica Generale' + 'Computer Science di Kevin Wayne'
+
+2	Definizione di algoritmo
+8	Arte della risoluzione dei problemi
+17	Ricorsione
+21	Efficienza degli algoritmi (v. 98)
+43	Commenti
+52	Introduzione alla OOP
+54	Costruttori
+54	Caratteristiche (ereditarietà e incapsulamento) (v. 181-201)
+66	Array e Linked Lists (v. 82 Java x implementazione) 
+67	Alberi (v. 111 Java x implementazione)
+79	Tipi di dati definiti dall'utente (v. 131)
+90	Macchine di Turing
+95	Funzioni non computabili
+98	Complessità dei problemi (v. 41)
+102	Crittografia
+109	Iterazione vs Ricorsione
+
+111	Reference types
+113	Comparazione di oggetti (v. 203 + 6 Java x diagramma)
+113	Pass by value
+114	Array
+115	Puntatori
+116	Garbage collector
+131	Creare tipi di dato
+133	Modificatori di accesso e variabili d'istanza (v. 6 Java x modificatori 'public e 'private'
+138	Com'è fatta una classe?
+143	Programmazione grafica (introduzione a StdDraw)
+177	Progettare tipi di dato
+181	Incapsulamento
+194	'this' keyword
+195	Interfaccie e polimorfismo
+199	Funzioni lambda
+201	Ereditarietà
+203	Comparazione di oggetti (2)
+206	Tipi Wrapper
+214	Eccezioni (v. 15 CPP x confronto)
+215	'assert' keyword
+
+
+
+
+
+CPP:
+'Problem Solving with C++ 10th Edition Global di W. Savitch'
+
+1	Classe 'string'
+15	classe 'vector'
+23	Eccezioni
+52	Templates
+
+62	Tabella caratteri ASCII
+63	API Reference
+
+
+
+
+Java:
+'Java An introduction to problem solving 8th Edition Global di W. Savitch'
+
+1	Classi e metodi
+3	File delle classi
+4	Incapsulamento (v. 181 intro)
+6	Modificatori 'public' e 'private' (v. 133 intro)
+11	Diagramma comparazione di oggetti (v. 113-203 intro)
+12	'equals' method
+19	Enumeration
+21	Ereditarietà (v. 201 intro)
+27	Overriding
+28	Modificatore 'final'
+31	Ereditarietà in UML
+34	Ereditarietà 2, keyword 'super'
+36	'this' vs 'super' (v. 194 intro per 'this')
+38	Polimorfismo (v. 195 intro)
+43	Interfaccie (v. 195 intro)
+52	Eccezioni (v. 214 intro)
+57-58	Diagramma flusso di esecuzione in caso di eccezione
+62	Definire eccezioni personalizzate
+70	Strutture dinamiche basate su array (v. 114 intro per definizione 'array')
+71	classe 'ArrayList'
+76	Java Collections Framework
+77	classe 'HashSet'
+79	Interfaccia 'Map' e classe 'HashMap'
+82	Linked Lists (v. 66 intro x descrizione struttura + 115 intro x puntatori)
+92	NullPointerException (v. 52)
+94	Classi interne
+107	Interfaccia 'Iterator' e Exception Handling delle Linked Lists
+109	Linked Lists particolari
+111	Altre strutture dati Linked (v. 67 intro x alberi)
+112	Tipi di dato generici (v. pag. 52 CPP x confronto con templates)
+
+
