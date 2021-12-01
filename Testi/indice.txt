@@ -92,3 +92,55 @@ Java:
 112	Tipi di dato generici (v. pag. 52 CPP x confronto con templates)
 
 
+
+
+Concorrenza:
+"Tecnologie e progettazione di sistemi informatici di P. Camagni"
+
+1	Il modello a processi
+3	Stato dei processi
+5	Comandi per la gestione (v. 47 x C/C++)
+9	Gestione delle risorse
+12	Grafi di Holt
+22	Thread (v. 76 x C/C++, 96 e 202 x Java)
+24	Standard POSIX per i Thread
+26	Programmazione imperativa vs concorrente
+28	Processi non sequenziali
+33	Processi in competizione
+35	Fork Join (v. 59)
+40	Cobegin-coend (v. 70)
+43	Equivalenza tra i due metodi
+
+47	Fork in C/C++
+53	Esecuzione non deterministica
+59	Funzione wait() in C/C++
+70	Fork Join e cobegin-coend in C
+76	Thread in C/C++
+83	Thread e parametri in C/C++
+91	Thread in Java
+98	Thread prioritari con parametri in Java
+103	sleep(), yeld(), join() in Java
+
+113	Modello di comunicazione a memoria comune
+116	Modello a scambio di messaggi
+
+121	Errori nei programmi concorrenti (v. 165 x C/C++)
+124	Dominio e rango
+127	Mutua esclusione
+129	Deadlock (v. 148)
+133	Semafori di basso livello (v. 170 x C/C++, 196 x Java)
+137	Semafori di Dijkstra
+148	Deadlock 2 (v. 175 x C/C++, 207 x Java)
+153	Detection, recovery, avoidance
+155	Prevention
+158	I monitor
+216	wait e signal
+
+165	Thread e schedulazione
+170	I semafori binari in C
+175	Soluzione problema dei filosofi in C
+178	Soluzione problema produttori consumatori
+189	Variabili condizione in C
+196	I semafori in Java
+202	I ciclisti: thread in Java
+207	Soluzione problema dei filosofi in Java
