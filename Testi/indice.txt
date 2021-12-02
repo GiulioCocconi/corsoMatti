@@ -95,7 +95,7 @@ Java:
 
 
 Concorrenza:
-"Tecnologie e progettazione di sistemi informatici di P. Camagni"
+"Tecnologie e progettazione di sistemi informatici vol. 2 di P. Camagni"
 
 1	Il modello a processi
 3	Stato dei processi
