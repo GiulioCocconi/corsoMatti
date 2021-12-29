@@ -1,5 +1,5 @@
 Intro:
-'Informatica - Una panoramica Generale' + 'Computer Science di Kevin Wayne'
+'Informatica - Una panoramica Generale' + 'Computer Science di Kevin Wayne (Java)'
 
 2	Definizione di algoritmo
 8	Arte della risoluzione dei problemi
@@ -9,7 +9,7 @@ Intro:
 52	Introduzione alla OOP
 54	Costruttori
 54	Caratteristiche (ereditarietà e incapsulamento) (v. 181-201)
-66	Array e Linked Lists (v. 82 Java x implementazione) 
+66	Array e Linked Lists (v. 82 Java + 84 CPP x implementazione) 
 67	Alberi (v. 111 Java x implementazione)
 79	Tipi di dati definiti dall'utente (v. 131)
 90	Macchine di Turing
@@ -43,16 +43,67 @@ Intro:
 
 
 
-CPP:
-'Problem Solving with C++ 10th Edition Global di W. Savitch'
+CPP:'C++ Primer 5th Edition di Stanley B. Lippman' + 'Problem Solving with C++ 10th Edition Global di W. Savitch'
 
-1	Classe 'string'
-15	classe 'vector'
-23	Eccezioni
-52	Templates
+1   Type Aliases
+2   'auto' type
+4   'decltype' keyword
+6   Introduzione alle classi (v. 19)
+10  Scrivere il proprio file header
+12  Iterators (v. 89)
+19  Classi (v. 6)
+27  Costruttori (v. 53)
+32  Copy e distruzione
+34  'friend' keyword
+36  Funzionalità avanzate delle classi
+47  Scope delle classi
+53  Costruttori avanzati (v. 27)
+65  Membri static
+70  Classi IO (v. 272)
+76  Gestione di file
+81  Stream di 'string' (v. string in seguito)
+84  Containers sequenziali (v. 66 Intro + 374 per implementazione vettori)
+88  Operazioni con i Containers sequenziali (v. 95)
+89  Iterators (v. 12-131)
+95  Operazioni con i containers sequenziali (v. 88)
+106 Introduzione agli algoritmi della Standard Lib (v 2-8 intro)
+113 Algoritmi di ordinamento
+118 Funzioni lambda
+131 Iterators (v. 12-89)
+145 Algoritmi per i containers
+147 Containers Associativi
+155 Operazioni con i containers Associativi
+170 Containers Associativi unordered
+174 Progetto: Query program
+180 Introduzione all'OOP (v. 52 intro)
+192 Funzioni virtual
+196 Classi astratte
+199 Modificatori di accesso
+210 Costruttori (Ereditarietà)
+222 Progetto: Text Query rivisitato
+237 classe 'tuple'
+242 Classe 'bitset'
+247 Espressioni regolari
+272 IO Formattato (v. 70)
+282 Accesso casuale agli Stream
+287 Namespace
+304 Ereditarietà multipla
+318 Overloading gestione heap
+323 Run-Time Type Identification
+328 classe 'type_info'
+333 Puntatori a membri della classe
+339 Callable Objects
+341 Nested Classes
+345 Classe 'union'
+354 Modificatore 'volatile'
 
-62	Tabella caratteri ASCII
-63	API Reference
+360	Classe 'string'
+374	classe 'vector' (v. 84)
+383	Eccezioni
+411	Templates
+
+421	Tabella caratteri ASCII
+422	API Reference
 
 
 
@@ -63,7 +114,7 @@ Java:
 1	Classi e metodi
 3	File delle classi
 4	Incapsulamento (v. 181 intro)
-6	Modificatori 'public' e 'private' (v. 133 intro)
+6	Modificatori di accesso 'public' e 'private' (v. 133 intro)
 11	Diagramma comparazione di oggetti (v. 113-203 intro)
 12	'equals' method
 19	Enumeration
